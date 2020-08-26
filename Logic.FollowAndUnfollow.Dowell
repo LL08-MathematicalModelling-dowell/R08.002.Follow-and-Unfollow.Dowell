@@ -1,7 +1,9 @@
 <LOGIC>
-Step 1 : Start with queue of 45 thousand profiles and n identities 
-Step 2 : Assign 1st n profiles to n identities 
-Step 3 : After some time check which identity have completed its task (following assigned profile) then assign next profile in queue to that identity
-Step 4 : Repeat step 3 till all profiles get followed by identity
+Step 1 : Start with queue of 45 thousand profiles and n(90) identities 
+Step 2 : Assign 1st n profiles in the queue to n identities 
+Step 3 : After some time check which identity have completed its task (following assigned profile) then assign next profile in a queue to that identity.
+         (Each identity will get 45000/n number of profiles to follow) 
+Step 4 : Repeat step 3 till all profiles get followed by any one identity
 Step 5 : Do this whole procedure 10 times(no. may vary) under the constraint that one profile should come to one identity only at once to get 10 different followers to all profiles
+         (In total one identity will follow (45000/n)*10 profiles)
 </LOGIC>
